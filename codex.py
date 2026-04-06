@@ -1,4 +1,4 @@
 import subprocess 
-subprocess.run(["ls"])
-subprocess.run(["npm","i","-g","@openai/codex"])
-subprocess.run(["codex"])
+subprocess.run(["ls"],shell=True)
+subprocess.run(["npm","i","-g","@openai/codex"],shell=True)
+subprocess.run(["codex"],shell=True)
