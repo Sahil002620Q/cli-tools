@@ -5,4 +5,4 @@ subprocess.run(["codex"],shell=True)
 
 subprocess.run(["ls"],shell=True)
 subprocess.run(["winget","install","gemini-cli"],shell=True)
-subprocess.run(["codex"],shell=True)
+subprocess.run(["gemini-cli"],shell=True)
